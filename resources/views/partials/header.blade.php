@@ -1,7 +1,7 @@
 <header>
-    <div class="container">
-        <img src="{{Vite::asset('public/img/dc-logo.png')}}" alt="LOGO DC">
-        <nav>
+    <div class="container-header">
+        <img class="logo-small-header" src="{{Vite::asset('public/img/dc-logo.png')}}" alt="LOGO DC">
+        <nav class="nav-header">
             <a href="#">CHARACTERS</a>
             <a href="#">COMICS</a>
             <a href="#">MOVIES</a>

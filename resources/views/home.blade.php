@@ -9,5 +9,7 @@
 <body>
 
     @extends('layouts/layout')
+
+    
 </body>
 </html>

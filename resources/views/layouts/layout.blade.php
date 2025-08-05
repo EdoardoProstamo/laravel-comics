@@ -8,7 +8,25 @@
 </head>
 <body>
 
-    @include("components/header")
+    @include("partials/header")
+
+    <hr>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <hr>
+
+    @include("partials/footer")
     
 </body>
 </html>
