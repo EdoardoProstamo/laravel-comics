@@ -1,6 +1,6 @@
 <header>
     <div class="container">
-        <img src="" alt="LOGO DC">
+        <img src="{{Vite::asset('public/img/dc-logo.png')}}" alt="LOGO DC">
         <nav>
             <a href="#">CHARACTERS</a>
             <a href="#">COMICS</a>

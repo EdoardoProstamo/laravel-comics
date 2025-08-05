@@ -11,4 +11,4 @@
 
 ## Esempio layout:
 
-<img src="public/screenshot.png" alt="Comics img">
+<img src="public/img/screenshot.png" alt="Comics img">
