@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Laravel Comics</title>
-</head>
-<body>
-
     @extends('layouts/layout')
 
 
@@ -19,6 +9,8 @@
     @endphp
 
     @section('contenuto')
+        @include('partials/jumbotron')
+        
         <div class="bg-dark text-white py-5">
         <div class="container">
             <div class="text-center mb-4">
@@ -35,7 +27,3 @@
         </div>
     </div>
     @endsection
-
-
-</body>
-</html>
