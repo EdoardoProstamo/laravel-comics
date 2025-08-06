@@ -14,11 +14,7 @@
 
     @include("partials/header")
 
-    <hr>
-
     @yield('contenuto')
-
-    <hr>
 
     @include("partials/footer")
     
