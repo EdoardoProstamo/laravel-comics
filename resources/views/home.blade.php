@@ -10,6 +10,24 @@
 
     @extends('layouts/layout')
 
-    
+
+    @php
+
+        $comics = config("comics");
+
+    @endphp
+
+    @section('contenuto')
+        <div>
+            @foreach ($comics as $comic)
+                    <x-card :comic="$comic"/> 
+            @endforeach
+
+            <a href="#">LOAD MORE</a>
+            
+        </div>
+    @endsection
+
+
 </body>
 </html>

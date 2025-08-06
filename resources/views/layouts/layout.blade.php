@@ -12,17 +12,7 @@
 
     <hr>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    @yield('contenuto')
 
     <hr>
 
